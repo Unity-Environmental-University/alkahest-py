@@ -1,0 +1,18 @@
+"""
+Alkahest — type dissolution primitives and the Otter engine.
+
+Three states of matter:
+  Volatile (gas)  — always re-precipitates
+  Fluid (liquid)  — stable until broken
+  Salt (solid)    — consumed, becomes concrete
+"""
+
+from alkahest.phases import Volatile, Fluid, Salt
+from alkahest.engine import otter_step
+from alkahest.state import Item, Edge, Clause, OtterState
+
+__all__ = [
+    "Volatile", "Fluid", "Salt",
+    "Item", "Edge", "Clause", "OtterState",
+    "otter_step",
+]
