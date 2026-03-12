@@ -10,9 +10,11 @@ Three states of matter:
 from alkahest.phases import Volatile, Fluid, Salt
 from alkahest.engine import otter_step
 from alkahest.state import Item, Edge, Clause, OtterState
+from alkahest.bridge import Graph, load_state, save_derived
 
 __all__ = [
     "Volatile", "Fluid", "Salt",
     "Item", "Edge", "Clause", "OtterState",
     "otter_step",
+    "Graph", "load_state", "save_derived",
 ]
