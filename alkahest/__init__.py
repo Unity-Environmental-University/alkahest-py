@@ -15,6 +15,7 @@ from alkahest.solvers import (
     CausalDAG, CausalEvent, SymbolicEncoding, Frame,
     subdag, euler_product_complex, interference, ConvergentProof,
 )
+from alkahest.confidence import Confidence, BoundedPredictionSet, TARGET
 
 __all__ = [
     "Volatile", "Fluid", "Salt",
@@ -23,4 +24,5 @@ __all__ = [
     "Graph", "load_state", "save_derived",
     "CausalDAG", "CausalEvent", "SymbolicEncoding", "Frame",
     "subdag", "euler_product_complex", "interference", "ConvergentProof",
+    "Confidence", "BoundedPredictionSet", "TARGET",
 ]
